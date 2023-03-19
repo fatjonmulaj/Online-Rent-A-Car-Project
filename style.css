@@ -435,11 +435,11 @@ font-size: 16px;
  /* Mobile---------------------------- */
 
     
-@media (max-width:420px){
+@media (max-width:400px){
 
 body { margin: 0px;
     padding: 0px;
-    box-sizing: border-box;
+    box-sizing: border-box !important;
     }
     
     *{
@@ -500,7 +500,7 @@ body { margin: 0px;
         align-items: center;
         position: sticky;
         top: 0px;
-        width: 420px;
+        width: 400px;
         height: 45px;
     }
     
@@ -535,7 +535,6 @@ body { margin: 0px;
     
     #nav img{
         width: 75px;
-        
         padding-left: 20px;
         line-height: 50px;
         animation: none !important;
@@ -570,10 +569,10 @@ body { margin: 0px;
         justify-content: center;
         align-items: center;
         margin-top: 25px;
-        width: 410px;
+        width: 390px;
     }
     .car{
-        width: 390px;
+        width: 375px;
         height: auto;
         border: 2px solid #98c83e;
         border-radius: 8px  ;
@@ -583,7 +582,7 @@ body { margin: 0px;
     }
 
     .car img{
-        width:380px;
+        width:370px;
         height: 290px;
         padding: 0px;
     }
