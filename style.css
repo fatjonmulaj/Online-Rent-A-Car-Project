@@ -439,13 +439,15 @@ font-size: 16px;
 
 body { margin: 0px;
     padding: 0px;
-    box-sizing: border-box !important;
+    width: 480px;
+    overflow: hidden;
+    box-sizing: border-box;
     }
     
-    *{
+    /* *{
         margin: 0px;
         padding: 0px;
-    }
+    } */
 
     /* Header---------------------------- */
     
@@ -614,7 +616,7 @@ body { margin: 0px;
         background-color: black;
         color: white;
         height: 600px;
-        width: auto;
+        width: 480px;
         text-align: center;
         display: flex;
         justify-content: space-between;
@@ -677,7 +679,7 @@ body { margin: 0px;
         justify-content: center;
         align-items: center;
         height: 550px;
-        width: auto;
+        width: 480px;
     }
     
     #order form{
@@ -693,6 +695,7 @@ body { margin: 0px;
     .container form #submit{
     width: 100px;
     font-size: 13px;
+    padding-bottom: 10px;
     }
     
     #order form #booknow{
