@@ -435,7 +435,7 @@ font-size: 16px;
  /* Mobile---------------------------- */
 
     
-@media (max-width:400px){
+@media (max-width:480px){
 
 body { margin: 0px;
     padding: 0px;
@@ -500,7 +500,7 @@ body { margin: 0px;
         align-items: center;
         position: sticky;
         top: 0px;
-        width: 400px;
+        width: 480px;
         height: 45px;
     }
     
@@ -569,10 +569,11 @@ body { margin: 0px;
         justify-content: center;
         align-items: center;
         margin-top: 25px;
-        width: 390px;
+        width: 480px;
     }
     .car{
-        width: 375px;
+        
+        width: 420px;
         height: auto;
         border: 2px solid #98c83e;
         border-radius: 8px  ;
@@ -582,7 +583,7 @@ body { margin: 0px;
     }
 
     .car img{
-        width:370px;
+        width:400px;
         height: 290px;
         padding: 0px;
     }
@@ -630,11 +631,11 @@ body { margin: 0px;
         background-image:linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)) ,
         url(https://onlinerentacar-ks.com/wp-content/uploads/2019/09/carrental2-sectionbg1.jpg);
         font-family: 'Alkalami', serif;
-        width: auto;
+        width: 480px;
         background-repeat: no-repeat;
         background-size: cover;
         overflow: hidden;
-        
+        padding-bottom: 40px;
     }
     #reasons h2{
         display:none;
@@ -643,21 +644,21 @@ body { margin: 0px;
     #reasons .why{
         display: flex;
         flex-flow: column wrap;
-        
-        width: 400px;
+        width: 480px;
         padding-left: 5px;
         height: 1000px;
         padding-bottom: 100px;
+        text-align: center;
 
     }
     
     #reasons .why .paragraph {color: rgb(255, 255, 255);
-    width: 380px;
+    width: 450px;
     font-size: 17px;
     }
 
     #reasons .why .paragraph img{
-        padding-left: 5%;
+        text-align: center;
 
     }
     
@@ -727,7 +728,7 @@ body { margin: 0px;
     /* Rent-Location----------------------------------  */
 
     .rentalocation{
-        width: 399px;
+        width: 480px;
     }
 
     .rentalocation .location{
@@ -742,12 +743,13 @@ body { margin: 0px;
         flex-flow: column;
         justify-content: center;
         align-items: center;
-        width: 399px;
+        justify-items: center;
+        width: 465px;
     }
     
     .rentalocation #pictures .images { 
         border-radius: 20px;
-        width: 399px;
+        width: 420px;
         padding:0px ;
         color: #98c83e;
         font-size: 28px;
@@ -765,7 +767,7 @@ body { margin: 0px;
     
     .location p{ 
         font-size: 18px;
-        width: 395px;
+        width: 460px;
     }
     
     .rentalocation #pictures .images h3{
@@ -774,7 +776,7 @@ body { margin: 0px;
     } 
     
     .rentalocation #pictures .images img{ 
-        width: 390px;
+        width: 400px;
         border-radius: 20px;
     }
     
@@ -787,7 +789,8 @@ body { margin: 0px;
     }
     
     #iframe{
-        width:85%;
+        align-items: center;
+        width:80%;
         padding: 10px;
         margin-bottom:20px
     }
