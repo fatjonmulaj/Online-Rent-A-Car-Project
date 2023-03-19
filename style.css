@@ -435,7 +435,7 @@ font-size: 16px;
  /* Mobile---------------------------- */
 
     
-@media (max-width:450px){
+@media (max-width:420px){
 
 body { margin: 0px;
     padding: 0px;
@@ -500,7 +500,7 @@ body { margin: 0px;
         align-items: center;
         position: sticky;
         top: 0px;
-        width: 399px;
+        width: 420px;
         height: 45px;
     }
     
@@ -570,10 +570,10 @@ body { margin: 0px;
         justify-content: center;
         align-items: center;
         margin-top: 25px;
-        width: 390px;
+        width: 410px;
     }
     .car{
-        width: 375px;
+        width: 390px;
         height: auto;
         border: 2px solid #98c83e;
         border-radius: 8px  ;
@@ -583,7 +583,7 @@ body { margin: 0px;
     }
 
     .car img{
-        width:375px;
+        width:380px;
         height: 290px;
         padding: 0px;
     }
