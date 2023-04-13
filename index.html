@@ -5,14 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Online Rent A Car</title>
+    <!-- CSS Link -->
     <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome Link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <!-- Bootstrap Link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
 </head>
 <body>
 
-<header>
+<header id="return">
     <ul>
-        <div class="contact" id="return">
+        <div class="contact" id="return-homee">
             <li>Do you need a rent a car?</li>
             <li><a href="telephone:+383 49 584 584"><i class="fa-solid fa-phone"></i>+383 49 584 584</a></li>
             <li><a href="telephone:+383 45 777 123"><i class="fa-solid fa-phone"></i>+383 45 777 123</a></li>
@@ -27,21 +31,22 @@
 
 <section id="nav">
     <div class="image"><img src="https://onlinerentacar-ks.com/wp-content/uploads/2021/11/logo-onlinerentacar.png" alt="" id="home"></div>
-        <!-- <div class="mobilei">
-                <input type="checkbox" id="menu-bar">
-                <label for="menu-bar">Menu</label>
-        </div> -->
-    </div>
     <div class="nav-bar">
-        <ul>
-            <li id="home"><a href="#return">Home</a></li>
+        <ul class="nav-links">
+            <li id="home"><a href="#return-home">Home</a></li>
             <li id="aboutus"><a href="#services">About Us</a></li>
             <li id="contactus"><a href="#footer">Contact Us</a></li>
             <li id="booknow"><a href="#order">Book Now</a></li>
         </ul>
     </div>
+    <div class="hamburger">
+        <div class="list1"></div>
+        <div class="list1"></div>
+        <div class="list1"></div>
+    </div>
 </section>
 <br>
+
 
 <a href="#" id="newest">Our Newest Cars:</a>
 
@@ -188,11 +193,15 @@
 <div class="footer1">
     <img src="https://onlinerentacar-ks.com/wp-content/uploads/2021/11/logo-onlinerentacar-footer.png" alt=""></div>
     <div class="footer2"><p id="contactus"> +383 49 584 584 <br>+383 45 777 123<br><a href="mailto:info@onlinerentacar-ks.com">info@onlinerentacar-ks.com</a> </p></div>
-    <div class="return"> <a href="#return"><i class="fa-solid fa-caret-up"></i></a></div>
+    <div class="return"><a href="#return"><i class="fa-solid fa-caret-up"></i></a></div>
 </div>
 </footer>
 <p id="last">© 2015-2021 ONLINE Rent a Car. All Rights Reserved</p>
 </footer>
+
+<!-- Bootstrap JavaScript Link -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+<script src="app.js"></script>
 </body>
 </html>
 
