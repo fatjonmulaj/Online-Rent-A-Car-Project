@@ -718,18 +718,18 @@ body { margin: 0px;
         flex-flow: column wrap;
         justify-content: center;
         align-items: center;
-        height: 550px;
+        height: 850px;
         width: auto;
     }
     
     #order form{
         margin: 0px;
         padding: 15px;
-        border-radius: 8px;
+        border-radius: 15px;
         color: white;
         font-size: 10px;
         width: auto;
-        height: 520px;
+        height: 750px;
     }
     
     .container form #submit{

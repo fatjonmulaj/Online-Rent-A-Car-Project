@@ -5,7 +5,7 @@ const mobile = () => {
     hamburgeri.addEventListener('click', () => {
             navLinks.classList.toggle('navbar-active')
     })
-
+    
 }
 
 mobile();
