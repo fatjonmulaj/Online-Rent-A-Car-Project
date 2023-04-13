@@ -718,8 +718,12 @@ body { margin: 0px;
         flex-flow: column wrap;
         justify-content: center;
         align-items: center;
-        height: 850px;
+        height: auto;
         width: auto;
+    }
+
+    #order .container{
+        padding: 20px 0px;
     }
     
     #order form{
@@ -729,7 +733,7 @@ body { margin: 0px;
         color: white;
         font-size: 10px;
         width: auto;
-        height: 750px;
+        height: auto;
     }
     
     .container form #submit{
