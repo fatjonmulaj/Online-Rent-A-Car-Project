@@ -455,7 +455,6 @@ body { margin: 0px;
     padding: 0px;
     width: auto;
     box-sizing: border-box;
-    overflow: hidden !important;
     }
     
     *{
@@ -516,7 +515,6 @@ body { margin: 0px;
         top: 0px;
         width: auto;
         height: 45px;
-        overflow-x: hidden;
     }
 
     #nav .image{
@@ -548,16 +546,20 @@ body { margin: 0px;
         align-items: center;
         width: 50%;
         justify-content: space-between;
-        height: 90vh;
+        height: 60vh;
+        border-radius:0px 0px 0px 20px ;
         top: 100%;
         right: 0%;
         background-color:rgb(255, 255, 255);
         background-color:rgba(0,0,0,0.7); 
-        transform: translateX(100%);
+        /* transform: translateX(100%); */
+        opacity: 0;
+        transition: 0.5s ease-in;
     }
 
     .navbar-active{
-        transform: translateX(0%);
+        /* transform: translateX(0%); */
+        opacity: 1;
     }
 
     #menu-bar:checked .nav-bar{
