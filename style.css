@@ -454,8 +454,8 @@ font-size: 16px;
 body { margin: 0px;
     padding: 0px;
     width: auto;
-    box-sizing: border-box !important;
-    overflow-x: hidden !important;
+    box-sizing: border-box;
+    overflow: hidden !important;
     }
     
     *{
@@ -516,6 +516,7 @@ body { margin: 0px;
         top: 0px;
         width: auto;
         height: 45px;
+        overflow-x: hidden;
     }
 
     #nav .image{
